@@ -9,11 +9,11 @@ body {
 
 
 /* body h2 {
-    color: rgb(254, 254, 254);
-    text-align: center;
-    width: 57%;
-    margin: 364px;
-    font-size: xxx-large;
+color: rgb(254, 254, 254);
+text-align: center;
+width: 57%;
+margin: 364px;
+font-size: xxx-large;
 } */
 
 .container {
@@ -102,26 +102,64 @@ img {
 
 .form {
     /* border: 1px  rgb(97, 222, 247); */
-    margin: 82px 536px;
-    padding: 37px 22px;
-    width: 402px;
+    margin: 101px 472px;
+    padding: 39px 25px;
+    width: 401px;
     height: 452px;
-    color: #ffffff;
+    color: #f9feff;
     font-size: x-large;
     font-weight: bolder;
 }
 
+.vars {
+    border: 4px solid white;
+    width: 550px;
+    height: 559px;
+    margin: 3px 0px;
+    padding: 5px 19px;
+}
+
 .vars input {
-    margin: 17px 31px;
-    padding: 4px 0px;
+    margin: 18px 57px;
+    padding: 7px 4px;
+    color: #050707;
     text-align: -webkit-left;
     font-size: inherit;
     font-weight: 100;
     border-radius: 12px;
     font-style: normal;
-    background-color: #93fdff;
+    background-color: #b3f1f3;
 }
 
 .vars input:hover {
-    background: rgb(255, 157, 157);
+    background: rgb(184, 255, 251);
+}
+
+.contain {
+    margin: 0px;
+    padding: 20px;
+    width: auto;
+}
+
+.abc {
+    float: left;
+    margin: 6px;
+}
+
+.abc img {
+    width: 67px;
+    margin: 10px;
+    position: fixed;
+    top: 0px;
+}
+
+.abc h6 {
+    position: fixed;
+    top: 40px;
+    left: 21px;
+    margin: 40px 20px;
+    width: 73px;
+    font-size: 12px;
+    color: rgb(6, 43, 48);
+    background-color: #88f6f6;
 }
